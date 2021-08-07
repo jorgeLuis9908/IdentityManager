@@ -5,7 +5,7 @@ ventas por mes por mes
 ventas por año por año.
 
 
-   public async Task<IActionResult> Register(string returnurl=null)
+   public async Task<IActionResult> Modificacion(string returnurl=null)
         {
             if(!await _roleManager.RoleExistsAsync("Admin"))
             {
